@@ -1,4 +1,4 @@
-function stockPicker(arr) {
+function maxProfit(arr) {
   var profit = 0;
   var buy = 0;
   var sell = 0;
@@ -22,5 +22,5 @@ function stockPicker(arr) {
           "For a profit of $" + profit;
 }
 
-console.log(stockPicker([45, 24, 35, 31, 40, 38, 11]));
-//console.log(stockPicker([10, 9, 8, 7, 6, 5, 4]));
+console.log(maxProfit([45, 24, 35, 31, 40, 38, 11]));
+//console.log(maxProfit([10, 9, 8, 7, 6, 5, 4]));
